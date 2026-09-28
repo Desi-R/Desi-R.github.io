@@ -50,7 +50,8 @@ body {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
-  background: e5e5ee;
+  background: url(Launch_Cycle_Logo.png) center / cover no-repeat
+  /*  e5e5ee;    */
   border-radius: 10px;
 }
 
