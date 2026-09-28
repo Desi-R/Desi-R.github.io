@@ -8,6 +8,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background: rgb(255, 215, 0);
 }
 
 .header-section {
@@ -59,7 +60,7 @@ body {
 
 .card {
   overflow: hidden;
-  background: d rgb(255, 215, 0);
+  background: rgb(255, 215, 0);
   border-radius: 10px;
 }
 
