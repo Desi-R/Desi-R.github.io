@@ -104,7 +104,7 @@ body {
 
 .image-slot {
   height: 260px:
-  background #c8c8d0;
+  background #ffffff;
   min-height: 200px
 }
 
@@ -140,6 +140,7 @@ footer p {
 
 footer a {
     display: inline-block;
+    color: rgb(255, 215, 0);
     padding: 12px 24px;
     background: linear-gradient(to right, #414141 0%, #49504a 50%, #074d01 100%);
     background-size: 500%;
