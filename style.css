@@ -47,7 +47,7 @@ body {
 .intro {
   width: auto;
   min-width: 0;
-  min-height: 420px;
+  min-height: 300px;
   margin: 0 13px 40px;
   padding: 0px;
   box-sizing: border-box;
