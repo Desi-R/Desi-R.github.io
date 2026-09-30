@@ -35,9 +35,13 @@ body {
 }
 
 .header-section img {
-  padding-left: 30px;
-  width: 40px !important;
+  width: 40px;
   height: 40px;
+  box-sizing: border-box;
+}
+
+.logo {
+  padding-left: 30px
 }
 
 .intro {
