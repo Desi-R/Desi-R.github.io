@@ -154,8 +154,12 @@ body {
   flex: 1;
 }
 
-.design-overview img {
+.design-image {
   flex: 1;
+  text-align: center;
+}
+
+.design-overview img {
   max-width: 100%;
   height: auto;
 }
