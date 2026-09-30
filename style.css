@@ -31,12 +31,12 @@ body {
   font-weight: bold;
   font-size: 2em;
   margin: 0;
-  margin-left: 42px;
+  margin-left: 12px;
 }
 
 .header-section img {
   padding-left: 30px;
-  width: 40px;
+  width: 40px !important;
   height: 40px;
 }
 
