@@ -38,6 +38,7 @@ body {
 .header-section img {
   height: 65px;
   width: 65px;
+  
 }
 
 .logo {
@@ -157,11 +158,8 @@ body {
 .design-image {
   flex: 1;
   text-align: center;
-}
-
-.design-overview img {
-  max-width: 100%;
-  height: auto;
+  height: 260px;
+  background: #ffffff;
 }
 
 .design-overview > .card {
