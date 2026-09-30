@@ -103,9 +103,9 @@ body {
 }
 
 .image-slot {
-  height: 260px:
-  background #ffffff;
-  min-height: 200px
+  height: 260px;
+  background: #ffffff;
+  min-height: 200px;
 }
 
 .card h2,
