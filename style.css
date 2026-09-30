@@ -23,7 +23,7 @@ body {
   top: 0;
   z-index: 10;
   color: rgb(255, 215, 0);
-  height: 60px;
+  height: 80px;
 }
 
 .header-section h1 {
@@ -36,10 +36,8 @@ body {
 }
 
 .header-section img {
-  height: 100%;
-  width: auto;
-  aspect-ratio: 1 / 1;
-  object-fit: contain;
+  height: 80px;
+  width: 80px;
 }
 
 .logo {
@@ -185,7 +183,8 @@ footer a:hover {
   justify-content: space-between; /* Puts logo on left, links on right */
   align-items: center;            /* Vertically centers text */
   background-color: #000;      /* Dark slate blue background */
-  padding: 15px 30px;
+  padding: 15px;
+  height: 80px;
 }
 
 /* Remove bullets and arrange links side-by-side */
