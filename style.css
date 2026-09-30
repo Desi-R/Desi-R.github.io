@@ -35,9 +35,10 @@ body {
 }
 
 .header-section img {
+  height: 100%;
   width: auto;
-  height: auto;
-  box-sizing: border-box;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
 }
 
 .logo {
