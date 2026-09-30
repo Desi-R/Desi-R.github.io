@@ -34,12 +34,14 @@ body {
   margin-left: 12px;
 }
 
+/*
 .header-section img {
   padding-top: 10px;
   padding-left: 30px;
   width: 30px;
   height: 30px;
 }
+*/
 
 .intro {
   width: auto;
@@ -53,7 +55,7 @@ body {
   gap: 16px;
   background: #e5e5ee;
   border-radius: 10px;
-  color:rgb(255, 215, 0);
+  color: rgb(255, 215, 0);
 }
 
 .intro > .card {
@@ -88,6 +90,16 @@ body {
   overflow: hidden;
   background: #e5e5ee;
   border-radius: 10px;
+  color: rgb(255, 215, 0);
+}
+
+.person h2,
+.person p {
+  margin: 16px 20px;
+}
+
+.person p {
+  margin-top: 0;
 }
 
 .image-slot {
