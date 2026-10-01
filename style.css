@@ -73,6 +73,7 @@ body {
 .card h2,
 .card p {
   margin: 16px 20px;
+  font-size: 20px;
 }
 
 .card p {
