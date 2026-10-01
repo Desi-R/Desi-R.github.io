@@ -141,8 +141,29 @@ body {
   color: rgb(255, 215, 0);
 }
 
-.info > .card {
+.info > .step {
   min-width: 0;
+}
+
+.step {
+  overflow: hidden;
+  background: #000;
+  border-radius: 10px;
+}
+
+.step h2,
+.step p {
+  margin: 16px 20px;
+
+}
+
+.step h2 {
+  font-size: 24px;
+}
+
+.step p {
+  margin-top: 0;
+  font-size: 16px;
 }
 
 .design-overview { 
