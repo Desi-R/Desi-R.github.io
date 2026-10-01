@@ -152,8 +152,8 @@ body {
   margin: 0 13px 40px;
   padding: 0px;
   box-sizing: border-box;
-  /*display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));*/
+  display: flex;
+  /*grid-template-columns: repeat(3, minmax(0, 1fr));*/
   gap: 16px;
   background: #000;
   border-radius: 10px;
