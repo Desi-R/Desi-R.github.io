@@ -73,11 +73,16 @@ body {
 .card h2,
 .card p {
   margin: 16px 20px;
-  font-size: 20px;
+
+}
+
+.card h2 {
+  font-size: 30px;
 }
 
 .card p {
   margin-top: 0;
+  font-size: 20px;
 }
 
 .team {
