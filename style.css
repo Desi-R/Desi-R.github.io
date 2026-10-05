@@ -124,6 +124,7 @@ body {
   height: 260px;
   /*background: #ffffff;*/
   min-height: 200px;
+  text-align: center;
 }
 
 .image-slot img {
@@ -201,6 +202,7 @@ body {
   flex: 1;
   text-align: center; 
   height: 260px; 
+  width: auto;
   background: #ffffff; /* Placeholder white box */
 }
 
