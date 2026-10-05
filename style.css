@@ -126,6 +126,11 @@ body {
   min-height: 200px;
 }
 
+.image-slot img {
+  height: 260px;
+  width: auto;
+}
+
 .info {
   width: auto;
   min-width: 0;
@@ -193,10 +198,15 @@ body {
 
 /* 3. Give the image container room to grow */
 .design-image { 
-  /*flex: 1;*/ 
+  flex: 1;
   text-align: center; 
   height: 260px; 
   background: #ffffff; /* Placeholder white box */
+}
+
+.design-image img {
+  height: 260px;
+  width: auto;
 }
 
 .navbar {
