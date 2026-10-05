@@ -100,6 +100,18 @@ body {
   color: rgb(255, 215, 0);
 }
 
+/* Optional: Styles for the new elements to make them look cohesive */
+.team-container {
+  max-width: 1200px; /* Limits overall width if needed */
+  margin: 0 auto;    /* Centers the entire block on the page */
+}
+
+.team-header, 
+.team-footer-text {
+  text-align: center; /* Centers the text above and below the box */
+  margin: 20px 13px;  /* Matches the side margins of your team box */
+}
+
 .team > .person {
   min-width: 0;
 }
@@ -199,7 +211,7 @@ body {
 
 /* 3. Give the image container room to grow */
 .design-image { 
-  flex: 1;
+  /*flex: 1;*/
   text-align: center; 
   height: 260px; 
   width: fit-content;
