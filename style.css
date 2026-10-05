@@ -122,7 +122,7 @@ body {
 
 .image-slot {
   height: 260px;
-  background: #ffffff;
+  /*background: #ffffff;*/
   min-height: 200px;
 }
 
@@ -193,7 +193,7 @@ body {
 
 /* 3. Give the image container room to grow */
 .design-image { 
-  flex: 1; 
+  /*flex: 1;*/ 
   text-align: center; 
   height: 260px; 
   background: #ffffff; /* Placeholder white box */
