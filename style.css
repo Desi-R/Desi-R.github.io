@@ -106,10 +106,13 @@ body {
   margin: 0 auto;    /* Centers the entire block on the page */
 }
 
-.team-header, 
+.team-header {
+  grid-column: span 4;
+  margin-bottom: 10px;
+}
 .team-footer-text {
-  text-align: center; /* Centers the text above and below the box */
-  margin: 20px 13px;  /* Matches the side margins of your team box */
+  grid-column: span 4;
+  margin-top: 10px;
 }
 
 .team > .person {
