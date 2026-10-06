@@ -103,7 +103,7 @@ body {
 .team-header {
   grid-column: span 4;
   margin-bottom: 10px;
-  font-size: 30px
+  font-size: 30px;
   text-align: center;
 }
 .team-footer-text {
