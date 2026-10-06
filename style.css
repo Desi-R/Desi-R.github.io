@@ -100,19 +100,16 @@ body {
   color: rgb(255, 215, 0);
 }
 
-/* Optional: Styles for the new elements to make them look cohesive */
-.team-container {
-  max-width: 1200px; /* Limits overall width if needed */
-  margin: 0 auto;    /* Centers the entire block on the page */
-}
-
 .team-header {
   grid-column: span 4;
   margin-bottom: 10px;
+  font-size: 30px
+  text-align: center;
 }
 .team-footer-text {
   grid-column: span 4;
   margin-top: 10px;
+  text-align: center;
 }
 
 .team > .person {
