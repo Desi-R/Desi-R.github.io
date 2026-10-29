@@ -46,7 +46,12 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .intro{
+  .intro,
+  .team, 
+  .info{
+    grid-template-columns: repeat(1, minmax(0,1fr);
+  }
+  /* {
       grid-template-rows: repeat(2, minmax(0, 1fr));
   }
   .team{
@@ -54,7 +59,7 @@ body {
   }
   .info{
       grid-template-rows: repeat(3, minmax(0, 1fr));
-  }
+  } */
   .design-image {
     flex-direction: column;
   }
