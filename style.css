@@ -82,17 +82,19 @@ body {
     padding: 0px;
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(1, minmax(0, 1fr));
     gap: 16px;
     background: #ffffff;
     border-radius: 10px;
     color: rgb(255, 215, 0);
   }
   .design-card {
-  /* display: flex;       /* Forces children side-by-side */ 
-  gap: 16px;           /* Puts space between text and image */
-  align-items: center; /* Centers items vertically */
-  height: 100%;
+  /* display: flex; /* Forces children side-by-side */ 
+    display: flex;
+    flex-direction: column;
+    gap: 16px;           /* Puts space between text and image */
+    align-items: center; /* Centers items vertically */
+    height: 100%;
   }
 }
 
