@@ -46,24 +46,56 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .intro,
-  .team, 
+  .intro {
+    width: auto;
+    min-width: 0;
+    min-height: 260px;
+    margin: 0 13px 40px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 16px;
+    background: #ffffff;
+    border-radius: 10px;
+    color: rgb(255, 215, 0);
+  }
+  .team {
+    width: auto;
+    min-width: 0;
+    min-height: 320px;
+    margin: 0 13px 40px;
+    padding: 30px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 16px;
+    background: #000;
+    border-radius: 10px;
+    color: rgb(255, 215, 0);
+  }
   .info{
-    grid-template-columns: repeat(1, minmax(0,1fr);
+    width: auto;
+    min-width: 0;
+    min-height: 300px;
+    margin: 0 13px 40px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    background: #ffffff;
+    border-radius: 10px;
+    color: rgb(255, 215, 0);
   }
-  /* {
-      grid-template-rows: repeat(2, minmax(0, 1fr));
-  }
-  .team{
-      grid-template-rows: repeat(4, minmax(0, 1fr));
-  }
-  .info{
-      grid-template-rows: repeat(3, minmax(0, 1fr));
-  } */
-  .design-image {
-    flex-direction: column;
+  .design-card {
+  /* display: flex;       /* Forces children side-by-side */ 
+  gap: 16px;           /* Puts space between text and image */
+  align-items: center; /* Centers items vertically */
+  height: 100%;
   }
 }
+
 
 .intro {
   width: auto;
