@@ -5,12 +5,6 @@ body {
   margin: 0;
 }
 
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
 .header-section {
   background: #000;
   margin: 0 0 30px 0;
@@ -45,61 +39,9 @@ body {
   padding-left: 30px
 }
 
-@media screen and (max-width: 768px) {
-  .intro {
-    width: auto;
-    min-width: 0;
-    min-height: 260px;
-    margin: 0 13px 40px;
-    padding: 0px;
-    box-sizing: border-box;
-    /*display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));*/
-    gap: 16px;
-    background: #ffffff;
-    border-radius: 10px;
-    color: rgb(255, 215, 0);
-  }
-  .team {
-    width: auto;
-    min-width: 0;
-    min-height: 320px;
-    margin: 0 13px 40px;
-    padding: 30px;
-    box-sizing: border-box;
-    display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: 16px;
-    background: #000;
-    border-radius: 10px;
-    color: rgb(255, 215, 255);
-  }
-  .info{
-    width: auto;
-    min-width: 0;
-    min-height: 300px;
-    margin: 0 13px 40px;
-    padding: 0px;
-    box-sizing: border-box;
-    display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: 16px;
-    background: #ffffff;
-    border-radius: 10px;
-    color: rgb(255, 215, 0);
-  }
-  .design-card {
-  /* display: flex; /* Forces children side-by-side */ 
-    display: flex;
-    flex-direction: column;
-    gap: 16px;           /* Puts space between text and image */
-    align-items: center; /* Centers items vertically */
-    height: 100%;
-  }
-}
-
 
 .intro {
+
   width: auto;
   min-width: 0;
   min-height: 260px;
@@ -140,6 +82,7 @@ body {
 }
 
 .team {
+
   width: auto;
   min-width: 0;
   min-height: 320px;
@@ -199,6 +142,7 @@ body {
 }
 
 .info {
+
   width: auto;
   min-width: 0;
   min-height: 300px;
@@ -372,3 +316,110 @@ footer a:hover {
 *::after {
     box-sizing: border-box;
 }
+
+
+  button {
+    display: none;
+  }
+
+
+@media screen and (max-width: 768px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    min-width: 0;
+    min-height: 260px;
+    margin: 0 13px 40px;
+    padding: 0px;
+    box-sizing: border-box;
+    /*display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));*/
+    background: #ffffff;
+    border-radius: 10px;
+    color: rgb(255, 215, 0);
+  }
+  .team {
+    display: flex; 
+    flex-direction: column;
+    width: auto;
+    min-width: 0;
+    min-height: 320px;
+    margin: 0 13px 40px;
+    padding: 30px;
+    /*box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));*/
+    gap: 16px;
+    background: #000;
+    border-radius: 10px;
+    color: rgb(255, 215, 0);
+  }
+  .info{
+    display: flex;
+    flex-direction:column;
+    width: auto;
+    min-width: 0;
+    min-height: 300px;
+    margin: 0 13px 40px;
+    padding: 0px;
+    box-sizing: border-box;
+    /*display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));*/
+    gap: 16px;
+    background: #ffffff;
+    border-radius: 10px;
+    color: rgb(255, 215, 0);
+  }
+  .design-card {
+    display: flex; /* Forces children side-by-side*/
+    flex-direction: column;
+    gap: 16px;           
+    align-items: center; 
+    height: 100%;
+    width: auto
+  }
+  .card h2 {
+  font-size: 25px;
+  }
+
+  .card p {
+    margin-top: 0;
+    font-size: 15px;
+  }
+
+  .navbar {
+    
+    display: none; /* Hidden by default */
+  }
+
+  button {
+    display: block
+  }
+  button a {
+    color: rgb(255, 215, 0);
+    background-color: #000000;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  /*.header-section a:not(:first-child) {
+    display: none;} /* Hide all links except the first one */
+  
+
+  .hamburger a.icon {
+    display: block; /* Show the hamburger icon */
+  }
+  .hamburger a:hover {
+    background-color: rgb(255,215,0);
+    color: black;
+  }
+  button:active {
+    background-color: #04AA6D;
+  }
+
+
+}
+
